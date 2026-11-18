@@ -1,0 +1,89 @@
+body {
+  background-color: #eef1f5;
+  color: #222222;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+div.pagina {
+  background-color: white;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding: 25px;
+  border: 1px solid #c5ccd6;
+}
+
+h1 {
+  color: #1b5e20;
+  font-size: 26px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #1b5e20;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c5ccd6;
+}
+
+h3 {
+  color: #333333;
+  font-size: 15px;
+}
+
+input, select {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  padding: 6px;
+  margin: 4px;
+  border: 1px solid #9aa4b2;
+}
+
+button {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #2e7d32;
+  border: 1px solid #1b5e20;
+  padding: 6px 12px;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+button.secondario {
+  background-color: #546e7a;
+  border: 1px solid #37474f;
+}
+
+button.secondario:hover {
+  background-color: #37474f;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+p.errore {
+  color: #b71c1c;
+  background-color: #fdecea;
+  border: 1px solid #b71c1c;
+  padding: 8px;
+}
+
+p.successo {
+  color: #1b5e20;
+  background-color: #e8f5e9;
+  border: 1px solid #1b5e20;
+  padding: 8px;
+}

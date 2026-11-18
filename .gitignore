@@ -1,0 +1,9 @@
+# Dipendenze installate (presenti sia in backend che in frontend)
+**/node_modules
+
+# Build di produzione del frontend (Vite)
+frontend/dist
+
+# File di sistema
+.DS_Store
+Thumbs.db
